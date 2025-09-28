@@ -17,10 +17,14 @@ Simple, clean Streamlit UI with session IDs so you can run multiple chats.
 
 🖼️ Screenshots
 
+### Landing / Key Entry & Upload
+![Landing](assets/landing.png)
 
-assets/screenshot-landing.png – landing / API key input
+### Answer + Raw Trace (debug view)
+![Chat JSON](assets/chat-json.png)
 
-assets/screenshot-chat.png – question + grounded answer + chat history
+### Clean Answer + History
+![Chat Clean](assets/chat-clean.png)
 
 In the sample screenshots, a PDF is uploaded and the app answers: “What are the Applications of GPT-5 in Pharma?”
 
