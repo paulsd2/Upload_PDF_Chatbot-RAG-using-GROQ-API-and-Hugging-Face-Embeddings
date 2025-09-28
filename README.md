@@ -50,10 +50,6 @@ A Groq API key → https://console.groq.com
 2) Clone & install
 git clone <your-repo-url>
 cd <your-repo>
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
 pip install -r requirements.txt
 
 
