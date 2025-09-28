@@ -1,28 +1,23 @@
 # Conversational RAG with PDF Uploads & Chat History (Groq + LangChain)
 
-## A lightweight Streamlit app for chatting with your PDFs using a conversational RAG pipeline.
-### It supports multi-PDF upload, session-scoped chat history, HuggingFace embeddings + Chroma vector store, and Groq LLMs for fast answers.
+ A lightweight Streamlit app for chatting with your PDFs using a conversational RAG pipeline.
+ It supports multi-PDF upload, session-scoped chat history, HuggingFace embeddings + Chroma vector store, and Groq LLMs for fast answers.
 
 ✨ Features
 
-## Upload one or more PDFs and build a temporary vector index on the fly.
+Upload one or more PDFs and build a temporary vector index on the fly.
 
-## Conversational RAG: queries are rewritten with chat history before retrieval for better grounding.
-
-## Fast inference with Groq (e.g., llama-3.1-8b-instant).
-
-## Local embeddings via sentence-transformers/all-MiniLM-L6-v2.
-
-## Simple, clean Streamlit UI with session IDs so you can run multiple chats.
+Conversational RAG: queries are rewritten with chat history before retrieval for better grounding.
+Fast inference with Groq (e.g., llama-3.1-8b-instant).
+Local embeddings via sentence-transformers/all-MiniLM-L6-v2.
+Simple, clean Streamlit UI with session IDs so you can run multiple chats.
 
 🖼️ Screenshots
 
 ### Landing / Key Entry & Upload
 ![Landing](assets/landing.png)
-
 ### Answer + Raw Trace (debug view)
 ![Chat JSON](assets/chat-json.png)
-
 ### Clean Answer + History
 ![Chat Clean](assets/chat-clean.png)
 
