@@ -8,8 +8,11 @@
 Upload one or more PDFs and build a temporary vector index on the fly.
 
 Conversational RAG: queries are rewritten with chat history before retrieval for better grounding.
+
 Fast inference with Groq (e.g., llama-3.1-8b-instant).
+
 Local embeddings via sentence-transformers/all-MiniLM-L6-v2.
+
 Simple, clean Streamlit UI with session IDs so you can run multiple chats.
 
 🖼️ Screenshots
